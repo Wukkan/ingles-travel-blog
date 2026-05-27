@@ -180,7 +180,7 @@ button {
   align-self: center;
   background:
     linear-gradient(180deg, rgba(244, 251, 255, 0.76), rgba(236, 246, 255, 0.94)),
-    url("https://images.unsplash.com/photo-1480796927426-f609979314bd?auto=format&fit=crop&w=1200&q=80") center/cover;
+    url("mount-fuji-selfie.png") center/cover;
   min-height: 420px;
   display: flex;
   flex-direction: column;
@@ -295,6 +295,10 @@ h2 {
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
   min-height: 380px;
+}
+
+.media-grid-single {
+  grid-template-columns: 1fr;
 }
 
 .panel-copy {
